@@ -48,34 +48,6 @@ We're looking for maintainers and have some funding available.  Please contact J
 
 [Node.js](https://nodejs.org/) >= **16.20.1**.
 
-### GNU/Linux and other UNIX-like systems
-
-#### Quick install on Debian/Ubuntu
-
-```sh
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install -y nodejs
-git clone --branch master https://github.com/ether/etherpad-lite.git &&
-cd etherpad-lite &&
-src/bin/run.sh
-```
-
-#### Manual install
-
-You'll need Git and [Node.js](https://nodejs.org/) installed.
-
-**As any user (we recommend creating a separate user called etherpad):**
-
-  1. Move to a folder where you want to install Etherpad.
-  2. Clone the Git repository: `git clone --branch master
-     https://github.com/ether/etherpad-lite.git`
-  3. Change into the new directory containing the cloned source code: `cd
-     etherpad-lite`
-  4. Run `src/bin/run.sh` and open http://127.0.0.1:9001 in your browser.
-
-To update to the latest released version, execute `git pull origin`. The next
-start with `src/bin/run.sh` will update the dependencies.
-
 ### Windows
 
 #### Prebuilt Windows package
